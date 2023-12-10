@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "161247540673",
+    "project_id": "manchester-resort",
+    "storage_bucket": "manchester-resort.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161247540673:android:9e0dcc51814fa87dd3eb40",
+        "android_client_info": {
+          "package_name": "com.farhanaazabdul.manchester_resort"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7NLOuu7r_FH5C_gs6aGN5oTM-XU_2trA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
