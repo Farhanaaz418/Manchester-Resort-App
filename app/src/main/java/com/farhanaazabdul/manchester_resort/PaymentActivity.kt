@@ -86,7 +86,7 @@ class PaymentActivity : ComponentActivity() {
                         )
 
                         MyTextFieldComponent(
-                            labelValue = " Branch Code ",
+                            labelValue = " Sort Code ",
                             painterResource = painterResource(id = R.drawable.box),
                             onTextChanged = {
 
@@ -94,7 +94,7 @@ class PaymentActivity : ComponentActivity() {
                         )
 
                         MyTextFieldComponent(
-                            labelValue = "Person Name ",
+                            labelValue = "Account holder's Name ",
                             painterResource = painterResource(id = R.drawable.box),
                             onTextChanged = {
 
@@ -102,7 +102,7 @@ class PaymentActivity : ComponentActivity() {
                         )
 
                         MyTextFieldComponent(
-                            labelValue = "Person Mobile Number ",
+                            labelValue = " Mobile Number ",
                             painterResource = painterResource(id = R.drawable.box),
                             onTextChanged = {
 
@@ -110,7 +110,7 @@ class PaymentActivity : ComponentActivity() {
                         )
 
                         MyTextFieldComponent(
-                            labelValue = "Bank Address ",
+                            labelValue = "Address ",
                             painterResource = painterResource(id = R.drawable.box),
                             onTextChanged = {
 
