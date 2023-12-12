@@ -38,7 +38,7 @@ fun LoginScreen(loginViewModel: LoginViewModel = viewModel()) {
         Surface(
             modifier = Modifier
                 .fillMaxSize()
-                .background(Color.White)
+                .background(Color .White)
                 .padding(28.dp)
         ) {
 

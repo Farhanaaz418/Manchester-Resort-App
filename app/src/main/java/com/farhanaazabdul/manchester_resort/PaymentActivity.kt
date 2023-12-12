@@ -48,7 +48,7 @@ class PaymentActivity : ComponentActivity() {
         setContent {
 
             val context = LocalContext.current
-            val gradient45 = Brush.linearGradient(colors = listOf(Color.White, Color.White), start = Offset(0f, Float.POSITIVE_INFINITY), end = Offset(Float.POSITIVE_INFINITY, 0f))
+            val gradient45 = Brush.linearGradient(colors = listOf(Color.White, Color .Cyan), start = Offset(0f, Float.POSITIVE_INFINITY), end = Offset(Float.POSITIVE_INFINITY, 0f))
 
                 Surface(
                     modifier = Modifier

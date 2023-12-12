@@ -32,7 +32,7 @@ import com.farhanaazabdul.manchester_resort.R
 fun SignUpScreen(signupViewModel: SignupViewModel = viewModel()) {
     Box(
         modifier = Modifier.fillMaxSize()
-            .background(color = Color(R.color.white)),
+            .background(color = Color(R.color .white)),
         contentAlignment = Alignment.Center,
 
     ) {
@@ -51,8 +51,8 @@ fun SignUpScreen(signupViewModel: SignupViewModel = viewModel()) {
                     modifier = Modifier.size(150.dp),
                     painter = painterResource(id = R.drawable.manchester_logo), contentDescription = null)
                 Spacer(modifier = Modifier.height(10.dp))
-                  HeadingTextComponent(value = "Manchester Resort App")
-                  Spacer(modifier = Modifier.height(8.dp))
+                  HeadingTextComponent(value = "Manchester Resort ")
+                  Spacer(modifier = Modifier.height(18.dp))
                   MyTextFieldComponent(
                     labelValue = stringResource(id = R.string.first_name),
                     painterResource(id = R.drawable.profile),
