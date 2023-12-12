@@ -43,7 +43,7 @@ class BookedActivity : ComponentActivity() {
         setContent {
 
             val context = LocalContext.current
-            val gradient45 = Brush.linearGradient(colors = listOf(Color.White, Color.White), start = Offset(0f, Float.POSITIVE_INFINITY), end = Offset(Float.POSITIVE_INFINITY, 0f))
+            val gradient45 = Brush.linearGradient(colors = listOf(Color .LightGray, Color .Cyan), start = Offset(0f, Float.POSITIVE_INFINITY), end = Offset(Float.POSITIVE_INFINITY, 0f))
 
                 Surface(
                     modifier = Modifier
@@ -56,8 +56,8 @@ class BookedActivity : ComponentActivity() {
                         .background(gradient45),
                         verticalArrangement = Arrangement.Center,
                         horizontalAlignment = Alignment.CenterHorizontally) {
-                        HeadingTextComponent(value = " Payment Successfully")
-                        Spacer(modifier = Modifier.height(25.dp))
+                        HeadingTextComponent(value = " Payment Successful !!")
+                        Spacer(modifier = Modifier.height(35.dp))
                         Spacer(modifier = Modifier.height(105.dp))
                         val toy = ""
                         Button(
