@@ -21,7 +21,7 @@ import com.farhanaazabdul.manchester_resort.navigation.SystemBackButtonHandler
 fun TermsAndConditionsScreen() {
     Surface(modifier = Modifier
         .fillMaxSize()
-        .background(color = Color.White)
+        .background(color = Color.Cyan)
         .padding(16.dp)) {
 
         HeadingTextComponent(value = stringResource(id = R.string.terms_and_conditions_header))

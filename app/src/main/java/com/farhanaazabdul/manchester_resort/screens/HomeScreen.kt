@@ -88,7 +88,7 @@ fun HomeScreen(homeViewModel: HomeViewModel = viewModel()) {
         Surface(
             modifier = Modifier
                 .fillMaxSize()
-                .background(Color.White)
+                .background(Color.Cyan)
                 .padding(paddingValues)
         ) {
             Column(modifier = Modifier.fillMaxSize()) {
@@ -301,7 +301,7 @@ fun HomeScreen(homeViewModel: HomeViewModel = viewModel()) {
                                 )
                         )
                         Text(
-                            text = "LoliPop",
+                            text = "Lolipop",
                             color = Color.Black,
                             style = TextStyle(
                                 fontSize = 20.sp,

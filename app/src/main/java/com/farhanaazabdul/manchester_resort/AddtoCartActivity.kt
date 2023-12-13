@@ -56,9 +56,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
     Box(
         modifier = modifier
             .requiredWidth(width = 360.dp)
-            .requiredHeight(height = 618.dp)
-            .background(color = Color.White)
-    ) {
+            .requiredHeight(height = 618.dp)) {
         Text(
             text = "ICC Cricket world Cup",
             color = Color.White,

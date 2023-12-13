@@ -56,7 +56,7 @@ class BookedActivity : ComponentActivity() {
                         .background(gradient45),
                         verticalArrangement = Arrangement.Center,
                         horizontalAlignment = Alignment.CenterHorizontally) {
-                        HeadingTextComponent(value = " Payment Successful !!")
+                        HeadingTextComponent(value = " Order placed !!                                                            Payment Successful !!                           Thankyou !!")
                         Spacer(modifier = Modifier.height(35.dp))
                         Spacer(modifier = Modifier.height(105.dp))
                         val toy = ""
